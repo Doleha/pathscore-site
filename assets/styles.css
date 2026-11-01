@@ -41,6 +41,7 @@ header.site-header .container {
   color: var(--ink);
 }
 .logo span { color: var(--accent); }
+.logo:hover { text-decoration: none; }
 nav.site-nav a {
   margin-left: 24px;
   color: var(--ink-soft);
@@ -202,6 +203,14 @@ article.article {
 .article p { font-size: 16px; margin: 0 0 16px; }
 .article ul, .article ol { font-size: 16px; padding-left: 22px; }
 .article li { margin-bottom: 8px; }
+
+.back-link {
+  display: inline-block;
+  font-size: 14px;
+  color: var(--ink-soft);
+  margin-bottom: 20px;
+}
+.back-link:hover { color: var(--ink); }
 
 .toc {
   border: 1px solid var(--border);
